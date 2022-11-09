@@ -4,7 +4,7 @@ A .dfpwm audio player for CC:Tweaked.
 Convert audio to the specified format at https://music.madefor.cc/ or https://remote.craftos-pc.cc/music/, or with a development build of FFmpeg.
 
 ## Download
-wget https://raw.githubusercontent.com/olvlab/audio/main/audio.lua
+wget https://raw.githubusercontent.com/olvlab/CC-audio/main/audio.lua
 
 ## Usage
 **audio** [side] path [volume]
