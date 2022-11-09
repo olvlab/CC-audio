@@ -46,7 +46,7 @@ if sub == 'http://' or sub == 'https:/' then
 		frames = frames .. line
 	end
 else
-	for chunk in io.lines(shell.dir()..'/'..path) do
+	for chunk in io.lines((path:sub(1, 1) ~= '/' and shell.dir()..'/' or '')..path) do
 		frames = frames .. chunk
 	end
 end
