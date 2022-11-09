@@ -46,7 +46,7 @@ if sub == 'http://' or sub == 'https:/' then
 		frames = frames .. line
 	end
 else
-	for chunk in io.lines(path..'.dfpwm') do
+	for chunk in io.lines(shell.dir()..'/'..path) do
 		frames = frames .. chunk
 	end
 end
